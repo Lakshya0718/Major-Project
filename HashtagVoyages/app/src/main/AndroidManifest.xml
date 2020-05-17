@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hashtagvoyages.hashtagvoyages">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".playlist"></activity>
+        <activity android:name=".survey" />
+        <activity android:name=".splitter_main" />
+        <activity android:name=".signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".About" />
+        <activity android:name=".Packages" />
+        <activity android:name=".Shop" />
+        <activity android:name=".blogs" />
+        <activity android:name=".mainmenu" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddPlace"
+            android:parentActivityName=".splitter_main"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="com.hashtagvoyages.hashtagvoyages.AddPlace" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddPlaceDetails"
+            android:parentActivityName=".AddPlace"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="com.hashtagvoyages.hashtagvoyages.AddPlaceDetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Display_friend"
+            android:parentActivityName=".splitter_main"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="com.hashtagvoyages.hashtagvoyages.Display_friend" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Display_friendDetails"
+            android:parentActivityName=".Display_friend"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="com.hashtagvoyages.hashtagvoyages.Display_friendDetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Update"
+            android:parentActivityName=".ViewTripDetails"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="com.hashtagvoyages.hashtagvoyages.Update" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewTripDetails"
+            android:parentActivityName=".AddPlace"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="com.hashtagvoyages.hashtagvoyages.ViewTripDetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

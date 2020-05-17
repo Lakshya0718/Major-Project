@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#736F6F"
+    android:padding="20dp"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".splitter_main">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="109dp"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btntrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="326dp"
+        android:background="@drawable/button_shadow"
+        android:text="@string/trip_expenses"
+        android:textColor="#fff"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btnday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btntrip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="227dp"
+        android:background="@drawable/button_shadow"
+        android:text="@string/day2day_expenses"
+        android:textColor="#fff"
+        android:textSize="23sp" />
+
+
+</RelativeLayout>

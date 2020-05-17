@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    android:padding="10dp"
+    tools:context=".playlist">
+    <TextView
+        android:id="@+id/playlisttag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:textSize="50sp"
+        android:background="#8090BCB7"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="@string/playlisthead"
+        android:fontFamily="@font/aclonica"
+        />
+
+    <Button
+        android:id="@+id/playlist1"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="5dp"
+        android:background="@drawable/button_shadow"
+        android:layout_below="@id/playlisttag"
+        android:textColor="#fff"
+        android:onClick="openplaylist1"
+        android:text="@string/bollywood_playlist"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/playlist2"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_shadow"
+        android:layout_below="@id/playlist1"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:onClick="openplaylist2"
+        android:text="@string/english_playlist"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/allplaylists"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:onClick="openallplaylist"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_shadow"
+        android:layout_below="@id/playlist2"
+        android:textColor="#fff"
+        android:text="@string/all_playlists"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

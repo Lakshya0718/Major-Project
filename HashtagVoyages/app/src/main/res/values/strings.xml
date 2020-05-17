@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HashtagVoyages</string>
+    <string name="home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="signin">Get Me In!</string>
+    <string name="password">Password</string>
+    <string name="bill_spiltter">Bill Spiltter</string>
+    <string name="about">About</string>
+    <string name="packages">Packages</string>
+    <string name="shop">shop</string>
+    <string name="blogs">Blogs</string>
+    <string name="sign_up">New User, Sign Up!</string>
+    <string name="register">Register Now!</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login!</string>
+    <string name="signup">Sign Up!</string>
+    <string name="phno">Mobile No</string>
+    <string name="forgetpass">Forgot Password! Click Here!</string>
+    <string name="trip_expenses">trip expenses</string>
+    <string name="day2day_expenses">day2day expenses</string>
+    <string name="no_of_participants">no of participants</string>
+    <string name="trip_description">trip description</string>
+    <string name="participant_name">participant name</string>
+    <string name="add">ADD</string>
+    <string name="select_date">select date</string>
+    <string name="date">Date</string>
+    <string name="submit">SUBMIT</string>
+    <string name="business_prompt">Business Prompt</string>
+    <string name="how_to_balance">HOW TO BALANCE ?</string>
+    <string name="amount">amount</string>
+    <string name="note">note</string>
+    <string name="recommend_a_playlist">Recommend a Playlist</string>
+    <string name="survey">Survey</string>
+    <string name="playlist">playlist</string>
+    <string name="playlisthead">PLAYLIST</string>
+    <string name="bollywood_playlist">Bollywood Playlist</string>
+    <string name="english_playlist">English Playlist</string>
+    <string name="all_playlists">View All Playlists</string>
+    <string name="already_a_user_login">Already a user, Login!</string>
+</resources>

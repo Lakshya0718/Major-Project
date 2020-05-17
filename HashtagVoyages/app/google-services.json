@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "79265745754",
+    "firebase_url": "https://hashtagvoyages-64508.firebaseio.com",
+    "project_id": "hashtagvoyages-64508",
+    "storage_bucket": "hashtagvoyages-64508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79265745754:android:c420bdb461d07df2040163",
+        "android_client_info": {
+          "package_name": "com.hashtagvoyages.hashtagvoyages"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79265745754-b0r3t0tkq0mcchef12b3h4rg0aii4an2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVRIFWgTDQ1SXLeMP-Su11WtLfW2dfbww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79265745754-b0r3t0tkq0mcchef12b3h4rg0aii4an2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

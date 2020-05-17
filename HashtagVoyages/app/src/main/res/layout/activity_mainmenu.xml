@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="@drawable/spiti"
+    android:fitsSystemWindows="true"
+    android:padding="30dp"
+    tools:context=".mainmenu">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/signout"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logout"
+        android:scaleType="fitXY"
+        android:onClick="Signout"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8090BCB7"
+        android:layout_weight="1"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/home"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/blogs"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/blogs"
+        android:textColor="#fff"
+        android:onClick="openblog"
+        android:background="@drawable/button_shadow"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:id="@+id/shop"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shop"
+        android:textColor="#fff"
+        android:onClick="openshop"
+        android:fontFamily="sans-serif-medium"
+        android:background="@drawable/button_shadow"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/packages"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:onClick="openpackages"
+        android:text="@string/packages"
+        android:background="@drawable/button_shadow"/>
+
+    <Button
+        android:id="@+id/billspillter"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:onClick="openbillsplitter"
+        android:text="@string/bill_spiltter"
+        android:background="@drawable/button_shadow"/>
+
+    <Button
+        android:id="@+id/playlist"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/playlist"
+        android:textColor="#fff"
+        android:onClick="openplaylist"
+        android:background="@drawable/button_shadow"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:id="@+id/Survey"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/survey"
+        android:textColor="#fff"
+        android:onClick="opensurvey"
+        android:background="@drawable/button_shadow"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:text="@string/about"
+        android:onClick="openabout"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#fff"
+        android:background="@drawable/button_shadow"
+        />
+
+
+</LinearLayout>
